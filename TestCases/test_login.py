@@ -1,15 +1,14 @@
 import time
 import unittest
 import logging
+import sys
+
 from Common import logger2
-
 from selenium import webdriver
-
 from Common import config
 from PageObjects import login_page
-
 from testdata import COMM_DATA as CD
-
+# from testdata import COMM_DATA as CD
 
 class Test_login(unittest.TestCase):
 
