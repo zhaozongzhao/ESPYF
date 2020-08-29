@@ -1,4 +1,0 @@
- Thu, 11 Jun 2020 19:49:19  INFO test_login.py setUp [ line:17 ] ====================登录开始====================
- Thu, 11 Jun 2020 19:49:22  INFO test_login.py test_login_ok [ line:34 ] 测试用例：正常登录
- Thu, 11 Jun 2020 19:49:22  INFO login_page.py login [ line:13 ] 登录操作： 用户名zongzhao.zhao 密码 zzz284117
- Thu, 11 Jun 2020 19:49:25  INFO test_login.py tearDown [ line:29 ] ========end test login=========

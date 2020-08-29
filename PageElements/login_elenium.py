@@ -4,3 +4,6 @@ user = '//*[@id="account"]'
 password = '//*[@id="password"]'
 button = "//button[contains(text(),'登录')]"
 
+#提示框
+
+   

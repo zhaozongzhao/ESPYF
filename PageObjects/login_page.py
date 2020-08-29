@@ -15,6 +15,7 @@ class Login_Page(BasePage):
         self.find_element(By.XPATH,login_elenium.password).send_keys(passwd)
         time.sleep(2)
         self.find_element(By.XPATH,login_elenium.button).click()
+        self.save_img('yanzheh.png')
 
 
 

@@ -1,5 +1,6 @@
 import time
 import unittest
+import pytest
 import logging
 import sys
 
@@ -27,7 +28,7 @@ class Test_login(unittest.TestCase):
     def tearDown(self):
         logging.info("========end test login=========")
         self.driver.close()
-        self.driver.quit()
+
 
     def test_login_ok(self):
         logging.info("测试用例：正常登录")
